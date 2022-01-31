@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eae9bc4-0283-4a63-921f-373b2e21c793">
+  <producedTypes>
+    <objectType typeId="857955de-3497-49f0-a851-57c5fdb7eabc" valueTypeId="8890b53d-56ef-47de-a769-3a021fd91896"/>
+    <managerType typeId="1404e9f5-1909-4376-a8d2-6fc964b7246f" valueTypeId="7c1ab933-2876-4552-b9cc-9e735ed174c5"/>
+  </producedTypes>
+  <name>ВедомостьПоЗаявкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по заявкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьПоЗаявкам.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="f386f7a1-f6b8-48ba-b895-4e8bc7f59d74">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="59199332-c4e6-4439-a7c5-e601e2f881f4">
+    <name>ВедомостьПоЗаявкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость по заявкам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

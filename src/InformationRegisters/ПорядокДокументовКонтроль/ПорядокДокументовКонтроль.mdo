@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df0257d6-0ca9-499a-9381-3aa0bfe8fcf6">
+  <producedTypes>
+    <selectionType typeId="ef8d703f-cf51-4f99-a2bc-65ba1297c9ba" valueTypeId="177bba52-cde9-496c-8281-7b7427115407"/>
+    <listType typeId="43ce56e3-6fb8-41f7-ac70-cb849bd671a3" valueTypeId="548a9c48-0d32-4a39-96e4-1ea36abead86"/>
+    <managerType typeId="dec1c114-eeef-4dcb-a88a-bf4c51eb0555" valueTypeId="a4cecc05-cb8f-4b7c-8161-52e8a518f055"/>
+    <recordSetType typeId="c508d70d-9faf-41f2-ba46-8626d0fd964d" valueTypeId="4f749597-2373-46ff-b8c0-bfb31773a3e0"/>
+    <recordKeyType typeId="a22c9e5d-7db5-4c19-b88e-91c83d361044" valueTypeId="96f07af6-870a-4e56-9736-c8d0c3cd8a3b"/>
+    <recordType typeId="f008df71-9dfc-4c3e-abbb-99dbc1a52ba2" valueTypeId="26ebe199-1442-4cc5-8bbb-1b4c8a32a798"/>
+    <recordManagerType typeId="d4513293-e0b0-413c-a5ce-a41aac3aef12" valueTypeId="3f361100-0cbc-4f85-9e18-22aad539e892"/>
+  </producedTypes>
+  <name>ПорядокДокументовКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок документов контроль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6aae470f-cd49-47d3-9d83-f477c0422c06">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51fdb1b2-42fb-4fe3-b733-1d62f8e28bcc">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f2904f86-6fb6-4cc5-8c60-7bfcf596bccc">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Контроль</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

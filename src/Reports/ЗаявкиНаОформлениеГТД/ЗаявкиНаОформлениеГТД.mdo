@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e77c4b8-b472-43a5-9be2-264e606b9d60">
+  <producedTypes>
+    <objectType typeId="5b8ab307-b695-4036-bfd7-b3e5d77c9861" valueTypeId="469469fc-4292-4ce0-aea3-27b19d8c84c1"/>
+    <managerType typeId="7ec7e494-9c96-43bc-b647-1d8c9ccf3faa" valueTypeId="7b47ff09-35f7-4a81-8684-596815bac2bd"/>
+  </producedTypes>
+  <name>ЗаявкиНаОформлениеГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на оформление (ГТД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗаявкиНаОформлениеГТД.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="9e670b26-0cb4-4437-969f-06cf2da7199b">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="f656b813-a613-4af7-92c0-37d0f8781fbc">
+    <name>ЗаявкиНаОформлениеГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки (ГТД)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

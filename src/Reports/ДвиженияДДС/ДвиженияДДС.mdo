@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fa8068d-6af1-4197-8069-b4c7aeedb4f0">
+  <producedTypes>
+    <objectType typeId="2c60cb39-1c16-44fc-9767-8dc90e3a63e6" valueTypeId="3a48ab37-7610-4f1b-91fc-8eec171bdf58"/>
+    <managerType typeId="0a114586-90ec-4fe1-bd31-25ec99e4b123" valueTypeId="d3e36f85-e889-4038-8837-7c8c3ca289cc"/>
+  </producedTypes>
+  <name>ДвиженияДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДвиженияДДС.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="45f81175-87ef-41c1-8d25-0ba61ea8f9fe">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

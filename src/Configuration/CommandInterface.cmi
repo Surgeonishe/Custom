@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>39aa7a9e-73bb-4119-a186-7bec6006ce2b</subsystems>
+    <subsystems>Subsystem.ГТД</subsystems>
+    <subsystems>Subsystem.Финансы</subsystems>
+    <subsystems>76f8b944-7378-46a2-85c4-c8575c46851f</subsystems>
+    <subsystems>c567e311-3a6e-4bd1-a16e-b95a72785516</subsystems>
+    <subsystems>215e7de7-db8c-41a3-a2ea-d4e2111a9ccc</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00ddd005-a5e2-4710-8ae6-a5f7c16e28d9">
+  <producedTypes>
+    <objectType typeId="02e8871e-4da2-41da-ba45-53e50b47bc6a" valueTypeId="ca4b1516-8f2b-4021-add4-a39fce7f1223"/>
+    <refType typeId="cc5138d3-851d-4b22-b77c-19dc2b5617d9" valueTypeId="7873aa7a-6c08-42ac-913a-33ac6c707836"/>
+    <selectionType typeId="e3e93fd8-057d-4870-a6f2-2eefc65809d0" valueTypeId="20832169-3334-40f2-ae0f-51e70107340d"/>
+    <listType typeId="20d5e234-9726-479b-8377-63a3dc871207" valueTypeId="78a26cd2-f26a-43b0-95c1-094382095561"/>
+    <managerType typeId="dfea6e10-4b6d-4a4b-b1e1-c26423dc8bad" valueTypeId="09350c3c-c895-4f97-a710-ea911be776c6"/>
+  </producedTypes>
+  <name>МестоПроисхожденияГруза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место происхождения груза</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестоПроисхожденияГруза.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестоПроисхожденияГруза.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МестоПроисхожденияГруза.Form.Элемент</defaultObjectForm>
+  <attributes uuid="859cc310-e594-4351-8e31-3842d08673de">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Страны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="935bf3a0-0eb3-4a0c-b225-a241b745e6d9">
+    <name>НаименованиеENG</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (eng)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24e242a5-749a-4a86-980d-59b27cf94a9c">
+    <name>НаименованиеUKR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (ukr)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c4e74f92-65fc-40b4-b22b-865ff03aa669">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

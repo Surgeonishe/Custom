@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1823f6d-a208-4ccb-894e-59df344b6614">
+  <producedTypes>
+    <selectionType typeId="46a1d625-9ecf-4531-bfb8-822bc73a0f07" valueTypeId="a8a7b8bb-3da7-4bb3-a891-0e9c5060f885"/>
+    <listType typeId="c1ae97ec-0318-4786-b2d6-024e4de3a7be" valueTypeId="41e3b591-dc64-424e-b45a-f49ce06ecc26"/>
+    <managerType typeId="d37ecb71-0539-47d0-b9c0-27f8be331823" valueTypeId="6032eca7-2979-4b93-bec5-2308e5e5393f"/>
+    <recordSetType typeId="41a86ccf-42ce-42c9-93c5-af05f9691e28" valueTypeId="61f94a09-f032-44cb-b89c-c0d8ac67fea3"/>
+    <recordKeyType typeId="0cbc686d-115a-4c17-a8b8-eedc2801da9c" valueTypeId="bdbbb827-6d70-45c1-abc6-60ee303fcf7d"/>
+    <recordType typeId="8061abd6-4469-4854-b61d-4ee6c81d09d5" valueTypeId="044b92d1-30d7-404b-941c-f3b6f79001ca"/>
+    <recordManagerType typeId="842c6a17-3d15-475d-b83b-d7c1c01f796e" valueTypeId="a6eb5c4b-0bd5-4834-bf91-bc6b41decc38"/>
+  </producedTypes>
+  <name>СтатьиДДСПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи ДДС по контрагентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтатьиДДСПоКонтрагентам.Form.Запись</defaultRecordForm>
+  <defaultListForm>InformationRegister.СтатьиДДСПоКонтрагентам.Form.Список</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="383b0fad-02cf-4c8a-ad62-e1162d655a17">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65eaf429-4746-4568-8a01-74928659d872">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a096a8e-5a22-4259-a3f0-ee966119d4e1">
+    <name>СтатьяДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья ДДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьяДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5dcf4b99-2a09-4a79-b10f-5a7fcb9bb65e">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2520c99-459b-4b4e-870f-43f919c6c975">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

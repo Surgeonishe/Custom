@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c897f2-71b3-4405-945d-9d048b5c41a5">
+  <producedTypes>
+    <selectionType typeId="258468dc-1111-4701-8ff0-39d45e79f363" valueTypeId="73c003e4-6553-4545-8f12-88e6207cea77"/>
+    <listType typeId="94ccb815-86ad-4f00-b7a3-eca70496bfb2" valueTypeId="dc02e497-1731-4f45-aab0-c51e52957f17"/>
+    <managerType typeId="431dc314-9425-49cd-aaf3-4bd1e3c0a299" valueTypeId="e086c368-7baf-4678-83c8-6db207dff8bf"/>
+    <recordSetType typeId="f06958a9-1d11-461d-8824-3f356e8c96e1" valueTypeId="7a7a0a89-d607-4af3-9ebc-88786f55c937"/>
+    <recordKeyType typeId="33932855-4907-40a6-b693-e7a1fab1586d" valueTypeId="1f5f7578-d889-48f6-bbc2-a96f29813380"/>
+    <recordType typeId="4eb4a868-942c-49bd-a2a6-94814c62c20e" valueTypeId="58d1bc10-b1e5-44ad-9f98-ea242f520a74"/>
+    <recordManagerType typeId="2a1ab3b4-d107-41f7-933d-0774b8276f5a" valueTypeId="8bf4529f-257f-4475-9d88-105a287929b2"/>
+  </producedTypes>
+  <name>МетодРаспределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод распределения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9a569a8a-ffa7-40f4-b881-e79d0a9f509e">
+    <name>Метод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодРаспределения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

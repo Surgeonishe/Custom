@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b7e5966-d968-4f57-a674-1749813e537a">
+  <producedTypes>
+    <objectType typeId="c0842b18-46ea-4931-9d72-340af48a5482" valueTypeId="38846632-98c7-4335-ab3e-383001ba59a2"/>
+    <refType typeId="388fd014-8a66-46b6-9ded-3ac93c238f10" valueTypeId="ddefc423-27b9-445b-b3fa-fa504f829ac8"/>
+    <selectionType typeId="864f3062-f9cb-448d-ad21-6a7d45b26f3b" valueTypeId="2880de93-9f57-4380-b5b0-20f694c85bdd"/>
+    <listType typeId="396e8bda-1af7-4350-befa-05646bd62d58" valueTypeId="ba170725-8ccd-4769-9cc9-e849ff203eb5"/>
+    <managerType typeId="9066313b-1c2f-457f-872f-4169c6809b31" valueTypeId="c14a3182-f7df-42a4-b04f-c6c259a17db7"/>
+  </producedTypes>
+  <name>СтатьяДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья движения ДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьяДДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьяДДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d348cd7f-3a73-48fc-bd07-eb4a16d745a4">
+      <name>Конвертация</name>
+      <description>Конвертация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="df491865-0f52-41d5-9d43-272d86b9db29">
+      <name>ПеремещениеМеждуКассами</name>
+      <description>Перемещение между кассами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

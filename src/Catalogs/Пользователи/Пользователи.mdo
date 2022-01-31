@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e5cf1c-d466-4150-9e14-8cb42446bd68">
+  <producedTypes>
+    <objectType typeId="5474c632-2950-4a97-838e-2873735d4b5e" valueTypeId="d7f1a5c1-473b-4e78-9540-b4fda3dbe070"/>
+    <refType typeId="e7ed6c97-8fd3-405e-89ad-cdb15cbcea02" valueTypeId="3966e1ad-f766-420b-8fb5-d7c559bff91f"/>
+    <selectionType typeId="9f4813a4-309e-4c19-81fe-71cb93bca181" valueTypeId="1aad9598-6c80-4abf-8e7e-1e3bd7971395"/>
+    <listType typeId="172d27ce-e2c5-4e77-9a3f-2ad81999de41" valueTypeId="9c358309-50db-44d9-9ce6-cc5582f0be33"/>
+    <managerType typeId="41be2721-5afd-4782-974e-b59c82368e86" valueTypeId="7757599c-ee2d-4390-8296-91e9933cacc5"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="09ee7d68-0246-4add-aeb6-f985c59bee6a">
+    <name>ОсновнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9551a13d-9e25-4c3c-b781-96394093d654">
+    <name>ОсновнаяКасса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

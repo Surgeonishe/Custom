@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60e88320-6025-457b-bfa5-815f57a9395f">
+  <producedTypes>
+    <refType typeId="81734c20-ee3b-456e-b820-cc8e938d6daa" valueTypeId="e0021596-9a96-48fb-bbd9-ce63827b38ef"/>
+    <listType typeId="2667042a-6970-4acc-a0fb-7065110c68a1" valueTypeId="a0caa926-0a26-486a-9249-62b87fdb2d05"/>
+    <managerType typeId="11b3e4f1-26d1-462c-a584-f817fb4d644b" valueTypeId="23807e17-ee99-4b22-89a9-366dfc99688f"/>
+  </producedTypes>
+  <name>СтатусыКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы (&quot;Контроль&quot;)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82f0a29c-2993-4211-b19b-5f09f87a50fa">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает прихода в порт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="515db108-3fcc-469d-9d9a-37731eac6931">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>В порту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0de2032-d816-4c46-aae9-dab85513d74b">
+    <name>Терминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>На терминале</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3307ac2-9455-497f-b9f4-4a09460435b4">
+    <name>Оформлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ccfdbce-4f09-4ef6-bfe3-5892003cebcb">
+    <name>Досмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>На досмотре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0a5f5d5-5f66-4e15-9854-a72a4656c3ee">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f96374d-6eda-44a0-b2e6-b5d50a08e03d">
+  <producedTypes>
+    <refType typeId="17c0028f-3ffb-4d31-9299-7717b34a64ed" valueTypeId="e608b8f8-2801-498d-adcd-6335a4aa00a0"/>
+    <listType typeId="844bced2-4467-4718-9e8b-22c085fd08a4" valueTypeId="7ed563cc-6c01-47fc-ab63-2b036cb9a839"/>
+    <managerType typeId="1fd617ab-1f1e-4fe8-8359-c61e30fffe8d" valueTypeId="36dadd49-7b87-499d-b288-480c50986b10"/>
+  </producedTypes>
+  <name>СтатусыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2258c410-5ed0-4199-a4ad-3fc63471b039">
+    <name>Статус100</name>
+    <synonym>
+      <key>ru</key>
+      <value>100 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc796180-5106-4146-a299-a1f38e079552">
+    <name>Статус50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="713d5af4-6608-4a22-93f2-4b0abf9427c0">
+    <name>Статус25</name>
+    <synonym>
+      <key>ru</key>
+      <value>25 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="235435fb-cf98-4876-981e-5709d8bf5687">
+    <name>Статус0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0 %</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

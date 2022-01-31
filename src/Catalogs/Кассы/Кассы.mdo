@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b070ba-f7eb-4f66-83df-93a7c345ccd5">
+  <producedTypes>
+    <objectType typeId="287ce043-8a05-47fd-8904-57d9005e5ab4" valueTypeId="4059da80-e3be-4947-b28e-e22971ce864b"/>
+    <refType typeId="06cad21b-35f5-41f5-b654-6718501d69e3" valueTypeId="b188665b-40e5-4e7c-b79c-9b0db9c25ae7"/>
+    <selectionType typeId="e2e0e780-04ea-4348-a19b-0185cdd598f6" valueTypeId="58f1f1ba-6ceb-4583-adfb-5df02abfcfa7"/>
+    <listType typeId="631a6435-a3ed-40e7-916e-828400b6de71" valueTypeId="7b9d7631-b634-44c5-9a64-146857828170"/>
+    <managerType typeId="885f8e28-2a1d-46cd-a77d-1011960cd37c" valueTypeId="ca6e5018-3578-4aca-9757-b12950d8ac9e"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Касса</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c2674ea9-38d8-497f-b216-c1f8ddb15653">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

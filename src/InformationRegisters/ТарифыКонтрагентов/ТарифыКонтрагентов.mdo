@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="588fae0e-41c7-42f5-a395-d90c811a4b75">
+  <producedTypes>
+    <selectionType typeId="9e537741-9383-48d4-a850-f3561f845e9c" valueTypeId="bc63542a-f1d1-4cab-9a4a-76cf4b669fa8"/>
+    <listType typeId="1f7b88fc-9f6f-4964-a812-af24b2454305" valueTypeId="776138bb-8953-438b-859c-f38e7d28b856"/>
+    <managerType typeId="ab2d44a4-ce86-4724-94ae-391e47c851d4" valueTypeId="eb841315-4063-44c6-980e-5b48a14a1884"/>
+    <recordSetType typeId="9e85b89b-2740-481e-bc2b-7e4fd1952b8c" valueTypeId="9079f9ca-2ff9-4a42-a17a-b8cb4b5755c3"/>
+    <recordKeyType typeId="3c0faa61-d736-4059-888c-67820729171b" valueTypeId="f22eb745-e406-4f2a-9778-632fdeedfd1a"/>
+    <recordType typeId="32e8f3c0-20ec-4b70-b0c2-a1374c7977ea" valueTypeId="774f849f-4f43-4c73-8531-0509b0d6e886"/>
+    <recordManagerType typeId="2e2aea47-7b7a-4e0a-9669-57f51850f90f" valueTypeId="9436f535-3346-4904-9679-d8effbee8b90"/>
+  </producedTypes>
+  <name>ТарифыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="102fafec-ef62-496b-bf3a-64951afcc8e7">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="00051e2f-c091-48fc-ac11-f387525fd284">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипКонтрагента</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипКонтрагента.EnumValue.Клиент</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cb66a56b-e42c-47e1-9c95-512d149fe9fb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Груз</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Услуга</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2b0b02dc-8713-42d1-a980-e7d0499b8f21">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Услуга</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5819da03-2c38-46de-be4f-05d7ee917f3b">
+  <producedTypes>
+    <objectType typeId="c30e94c0-67e5-4776-a03f-70dabce853ea" valueTypeId="2972f304-2dfc-4666-8de3-e69ed6a0e954"/>
+    <refType typeId="cb575980-9464-4041-9a09-835a5d6f67f6" valueTypeId="e4292f8a-f7e6-43a3-b9fb-4c807f0375e5"/>
+    <selectionType typeId="215c970d-45e4-483f-813d-51c7eb3f67d6" valueTypeId="9c5d2993-fce4-4a4e-9cd1-5c5a8fd26bd4"/>
+    <listType typeId="e271f9c3-69a5-4a34-8035-b815f189407b" valueTypeId="a9b68cec-f418-477b-bcaa-75b073fcd004"/>
+    <managerType typeId="548a8bac-d521-4f81-8738-930a3eb2e58b" valueTypeId="d427faa3-e48a-4975-9dbf-93d169932e88"/>
+  </producedTypes>
+  <name>ОбменВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОбменВалюты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОбменВалюты.Form.Документ</defaultObjectForm>
+  <defaultListForm>Document.ОбменВалюты.Form.Список</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ДенежныеСредства</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="827f8487-5030-4659-98f7-8245b0c7539e">
+    <name>ВалютаИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта из</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45f6b2ad-5e7f-4715-b60b-46c173d5e5eb">
+    <name>ВалютаВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта в</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa78b3b8-ac57-441b-b065-43aba248e273">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="725f3f31-eeff-464e-ab99-d5b753d332e4">
+    <name>СуммаПоКурсу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по курсу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f70607e6-8ef6-45ad-9888-04c9f30fa731">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3dd5fe3c-4a3b-404a-b40e-e3fb9e9400c0">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e3f78d8-665a-4285-b9b3-0b83ee9cc392">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

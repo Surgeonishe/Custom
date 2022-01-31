@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b1608d8-6a53-43ef-8cb3-ca006643cdb3">
+  <producedTypes>
+    <refType typeId="f5f81c87-01b7-4375-a948-bdf108e906d0" valueTypeId="e29df9ea-80fe-4d55-bcf4-a8c03924e1f4"/>
+    <listType typeId="d672cbfc-a66c-495b-8b99-aee342bf1bd6" valueTypeId="f67cccbc-f93b-4776-be97-c5c3a4152dac"/>
+    <managerType typeId="89fc6e4f-0a4b-4f8a-a00c-5b0e63103268" valueTypeId="1619bf2b-edaa-4556-88ae-6187b5d3d5c9"/>
+  </producedTypes>
+  <name>ВидОперацииДоходыРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы/ расходы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cde8dfb9-5721-4816-a246-1fc8bb06a7b3">
+    <name>БрокерскиеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокерские услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80fb6401-90ff-4930-b7de-54f02762857f">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a92cd67-d430-4cb6-80a6-9a538950950a">
+    <name>ОформлениеГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление ГТД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d374ed4-c26f-4842-89ca-d302bda76469">
+    <name>Платеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce16802b-47d7-4a83-8a6c-5c7a279ccf8c">
+    <name>ПоступлениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b50c6e0-c4fd-4130-9817-19923a08b80a">
+    <name>Проценты3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18cab1fd-ffa3-4af7-b32c-fc4ee0b84544">
+    <name>РасходДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9903d93-361f-4cfd-860f-fb346cf52762">
+    <name>ЭкспедиторскиеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспедиторские услуги</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

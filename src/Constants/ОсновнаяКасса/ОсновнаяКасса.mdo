@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ab56785-11e1-4c0f-807f-8a28c80a9e3a">
+  <producedTypes>
+    <managerType typeId="d0e7dc34-89ef-4f32-937d-a2276a8c88bd" valueTypeId="5a7a7d59-0b41-44df-84aa-98da717cc9c0"/>
+    <valueManagerType typeId="eeee594e-f0c4-4ec1-9ff2-67d0f3be7dca" valueTypeId="38040e9d-9cfc-4b79-958a-106ad34f2f5f"/>
+    <valueKeyType typeId="abd48e87-e0e3-4e14-813d-2921190efb01" valueTypeId="88df96af-085a-43d8-9548-67a21fbce6f5"/>
+  </producedTypes>
+  <name>ОсновнаяКасса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная касса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Кассы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

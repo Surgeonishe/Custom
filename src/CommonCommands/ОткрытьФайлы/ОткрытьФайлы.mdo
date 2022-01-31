@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaf764c3-4cae-4eb7-9274-3b473d7f2205">
+  <name>ОткрытьФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Кассы</types>
+    <types>DocumentRef.КорректировкаДолга</types>
+    <types>CatalogRef.ВидыДеятельности</types>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.СчетНаОплату</types>
+    <types>CatalogRef.Порты</types>
+    <types>CatalogRef.СтатьяДДС</types>
+    <types>CatalogRef.ГородаОбластиРайоны</types>
+    <types>DocumentRef.ЗаявкаНаРасходДС</types>
+    <types>CatalogRef.Линия</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+    <types>CatalogRef.Валюты</types>
+    <types>DocumentRef.ПоступлениеУслуг</types>
+    <types>CatalogRef.МестоОтправления</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ПеремещениеДенежныхСредств</types>
+    <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.МестоНахожденияГруза</types>
+    <types>DocumentRef.ПлатежноеПоручениеВходящее</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ВидыЗаявок</types>
+    <types>DocumentRef.ЗапросКлиента</types>
+    <types>CatalogRef.Банки</types>
+    <types>DocumentRef.СводныеДанные</types>
+    <types>DocumentRef.БрокерскиеУслуги</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>DocumentRef.Заявка</types>
+    <types>DocumentRef.ОбменВалюты</types>
+    <types>CatalogRef.МестоПроисхожденияГруза</types>
+    <types>DocumentRef.ВводНачальныхОстатков</types>
+    <types>CatalogRef.Страны</types>
+    <types>DocumentRef.ГТД</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>DocumentRef.ЭкспедиторскиеУслуги</types>
+    <types>DocumentRef.КорректировкаГТД</types>
+    <types>CatalogRef.Сотрудники</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Файлы</picture>
+  </picture>
+</mdclass:CommonCommand>

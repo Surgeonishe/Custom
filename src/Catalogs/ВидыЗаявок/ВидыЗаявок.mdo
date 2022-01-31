@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a018651c-b9fd-4dfb-9a8f-9644c55d9c56">
+  <producedTypes>
+    <objectType typeId="1a42383d-7c7c-429e-a450-df3f63c7fc00" valueTypeId="57e09ac4-7e79-4abd-ba77-5ba5ec2f3251"/>
+    <refType typeId="9758ada3-62b9-47ed-9024-c8d372be8ccb" valueTypeId="8cfeb8f5-ee32-4a2c-a716-838462edb021"/>
+    <selectionType typeId="ef02da33-4b46-4e95-80d5-56dc02b514f1" valueTypeId="e3a003ab-14d9-4c51-84e9-0a665fa82132"/>
+    <listType typeId="b9cbfd82-f643-4343-a8cc-f3bd290b14cc" valueTypeId="f0d26f9e-d412-49f5-89b3-98428a017adf"/>
+    <managerType typeId="7a656d27-2199-410c-9983-5d896fe291e7" valueTypeId="2aa2b6ab-ae54-4049-b597-8f4a60c81a7d"/>
+  </producedTypes>
+  <name>ВидыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЗаявок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЗаявок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид заявки</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="393f1c1f-98c1-4256-924a-212a33dc8b3c">
+      <name>Импорт</name>
+      <description>Импорт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="5a0337a5-cdee-4dfb-b840-ce3dcfad16ae">
+      <name>Экспорт</name>
+      <description>Экспорт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5deae132-87e8-4b12-a6c1-93c4bdafaedc">
+    <name>НаименованиеUKR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование UKR</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

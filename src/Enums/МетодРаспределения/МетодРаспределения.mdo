@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f552e743-aabe-486d-9042-8901b1fa8efa">
+  <producedTypes>
+    <refType typeId="cc541a39-694c-4cd3-876c-c615583709a3" valueTypeId="5874717d-3821-42b0-abd0-828018e7bef6"/>
+    <listType typeId="61af67b6-0dd7-4b07-8e08-30ac6c9c8a7e" valueTypeId="f208ff8c-afff-496a-a8b7-f8f4d02ebab2"/>
+    <managerType typeId="e293f231-bd0e-461d-9e8d-698ac5ebcfbd" valueTypeId="77ac5dac-3a7f-403e-b148-b1ca2c7b9a5b"/>
+  </producedTypes>
+  <name>МетодРаспределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод распределения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f7dd901-65e7-4564-ae63-9398fa3cee5a">
+    <name>ПоВесу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По весу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d989387-18c3-4ac4-a6a8-2273d7672682">
+    <name>ПоКоличествуТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>По количеству транспорта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

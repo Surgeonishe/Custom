@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99bf9d9d-36a6-4108-a325-9dff8f9f082c">
+  <name>ДокументЗаписанКоннекторЛевоНиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ записан коннектор лево низ</value>
+  </synonym>
+</mdclass:CommonPicture>

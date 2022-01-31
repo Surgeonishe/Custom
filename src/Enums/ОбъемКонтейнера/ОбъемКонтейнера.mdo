@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dc15989-5d31-4448-a9a9-a506bd5da690">
+  <producedTypes>
+    <refType typeId="c9db7e35-e24e-4234-8358-56a50e52781f" valueTypeId="39e9f9d9-53d9-4c45-8c1d-87883a51799e"/>
+    <listType typeId="c450c1c7-e4f4-46ca-9ae5-9a422a8ece1f" valueTypeId="3b2ec151-3cef-4da1-b730-bf4bdc7e0997"/>
+    <managerType typeId="e8579364-72a5-4427-8894-b6a9b6fe9a80" valueTypeId="81b1c1ea-a757-4255-adef-b2c535134092"/>
+  </producedTypes>
+  <name>ОбъемКонтейнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объем контейнера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9bf967c2-c609-465a-8413-eec7338f5a29">
+    <name>ДвадцатьФутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27bcb3bd-1fa1-4cf1-b9da-e6962bb1e037">
+    <name>СорокФутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>40</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0567cad0-0fd0-48ed-91d9-e9b91e5804fe">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a17e31-cd7e-40a8-81fa-488a369f6ac0">
+  <name>Касса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.АвансовыйОтчет</content>
+  <content>Document.ПеремещениеДенежныхСредств</content>
+  <content>Document.РасходныйКассовыйОрдер</content>
+  <content>Document.ПриходныйКассовыйОрдер</content>
+  <content>Document.ОбменВалюты</content>
+  <content>Document.ЗаявкаНаРасходДС</content>
+  <parentSubsystem>Subsystem.Финансы</parentSubsystem>
+</mdclass:Subsystem>

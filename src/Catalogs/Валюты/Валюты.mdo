@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7db097ea-e6d2-4f24-822e-861c9506e11d">
+  <producedTypes>
+    <objectType typeId="7142a539-27fe-483c-a298-77ae96e5c294" valueTypeId="38bef637-7644-4b76-8c7a-c3f237decc2a"/>
+    <refType typeId="66bc1852-f32f-427f-907d-219f278ad246" valueTypeId="3fc8e320-07dd-4a72-ac35-9d73e383bd61"/>
+    <selectionType typeId="13eec4fb-7f1d-4dd1-b5f2-783158d1943a" valueTypeId="bf6b6254-af56-403d-b705-c6dcd2d8cc1e"/>
+    <listType typeId="d8fa31e0-c43e-46c6-a6d1-2e5132f6bb81" valueTypeId="a5cfcf0d-5905-4b62-b220-90b2495b547c"/>
+    <managerType typeId="05e471ba-4953-41ee-894c-ab1ec0e0121d" valueTypeId="5557433c-1a32-4efb-b7b8-a77c08c468c0"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7c0ddb93-842d-41f4-bdef-03912162b014">
+      <name>Гривна</name>
+      <description>Гривна</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="8c0c1d4a-7629-4a5c-b054-0049e38700ab">
+      <name>Доллар</name>
+      <description>Доллар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6aa9b3fe-987a-4f28-8d0f-c4cc3e07dfa3">
+      <name>Евро</name>
+      <description>Евро</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.Элемент</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.Список</defaultListForm>
+  <attributes uuid="6f9be0ea-e78f-449b-9e59-530faa6ac022">
+    <name>КодЧисловой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код числовой</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5bdfddb-6f64-4654-8470-66516a1ccf7c">
+    <name>КодСимвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код символьный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fb9e7296-0787-4dd8-8d3a-8540a27ce547">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bfc5ed25-ed48-47e2-b387-bf07bc5b4eee">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

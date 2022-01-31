@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86f5a7c8-a2ab-4417-8694-f4f395e3b1da">
+  <producedTypes>
+    <objectType typeId="262e0a4c-2883-42e3-8c2e-29e510075b8b" valueTypeId="b894e4e3-bd59-4d1e-bacc-86007baaf747"/>
+    <managerType typeId="5c168190-614a-4f6b-a402-85bcece56685" valueTypeId="9c7bcf9e-f53b-4841-9660-7438eea7c69a"/>
+  </producedTypes>
+  <name>ЗагрузитьКурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузитьКурсыВалют.Form.Форма</defaultForm>
+  <tabularSections uuid="5e7dc46a-362f-47b7-aff3-d96a7ececdae">
+    <producedTypes>
+      <objectType typeId="595754c6-c6ce-45ca-9e01-597b259295cf" valueTypeId="f409338a-3563-454f-910f-bfaebc5ecc63"/>
+      <rowType typeId="3d2b4fee-4ac5-49ca-bfc5-20a3e278e294" valueTypeId="a1a1fe14-b67e-4c07-9e66-0f13341c17fa"/>
+    </producedTypes>
+    <name>Валюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8445d302-296f-42c4-9564-017ee227b30f">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4d974687-1056-46b6-9950-c523aa070380">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="85e0f103-8591-4ec6-b0c6-071ed7d4568d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

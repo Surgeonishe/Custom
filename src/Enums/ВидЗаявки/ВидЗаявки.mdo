@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee225db9-d124-46db-a691-0733f5e4e728">
+  <producedTypes>
+    <refType typeId="ff2afe53-4dbb-4317-934c-65fef32e4223" valueTypeId="6f988ad0-f9ce-4c60-b844-5abf1011382c"/>
+    <listType typeId="8d0bddd7-cbe7-4fd0-9afe-26f2add6e590" valueTypeId="dcefe131-b574-4bc7-920d-48cecbeb30e0"/>
+    <managerType typeId="64fa2332-e286-4ad0-a351-ab1299374db4" valueTypeId="635c25e7-1bf9-4323-b4ea-137a528655f3"/>
+  </producedTypes>
+  <name>ВидЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид заявки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aac1cf9f-af5d-466f-ba61-503bf980d12a">
+    <name>ДосмотрИнспектированиеАнализы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Досмотр, инспектирование, анализы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b21a5a13-dd11-4fcc-b8e8-b4eabd9b3555">
+    <name>ДосмотрИнспектированиеАнализыВнесениеФумигации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Досмотр, инспектирование, анализы, внесение фумигации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9f37af2-69bd-4242-891d-2245881b44e5">
+    <name>ДосмотрИнспектированиеАнализыФумигирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Досмотр, инспектирование, анализы, внесение фумигации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

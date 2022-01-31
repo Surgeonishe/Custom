@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="881dd4c3-0c51-4e3c-99b4-2f7488704955">
+  <producedTypes>
+    <objectType typeId="3d43c405-4e89-45b8-b088-1ac9c3352308" valueTypeId="e7f364e2-468b-46f0-a68c-5f11e87895aa"/>
+    <managerType typeId="8b88220f-2379-43db-8e6f-db4f0ecdb188" valueTypeId="6be8785b-0991-485f-9644-916aa8983d23"/>
+  </producedTypes>
+  <name>ВедомостьДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьДенежныхСредств.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="2f2ca223-cae5-4067-a61c-061c8e1aa246">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="5e9d7071-5193-459e-85f9-7fce025e43c0">
+    <name>ВедомостьДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость по денежным средствам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

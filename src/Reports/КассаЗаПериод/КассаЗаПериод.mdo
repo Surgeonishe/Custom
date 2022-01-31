@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bb62ab9-c993-4166-9bce-745ab33fc86f">
+  <producedTypes>
+    <objectType typeId="d2cbebcc-1ed0-410b-9330-5c3a5939f245" valueTypeId="1c7230dd-442e-4949-83bb-6a3068599338"/>
+    <managerType typeId="25965e15-940d-4bd3-a742-f8b3a7dc1e24" valueTypeId="0271c55e-adae-4d9e-8341-71ec9d1e4c4d"/>
+  </producedTypes>
+  <name>КассаЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КассаЗаПериод.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="5507fb0c-da0b-4abe-b939-9d6a8c390857">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

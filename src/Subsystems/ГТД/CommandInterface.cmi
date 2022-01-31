@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.ВедомостьПоЗаявкам.Command.ВедомостьПоЗаявкам</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:e14f7835-806d-49f9-88c2-63188ce85a11</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ГТД.Command.ГТД</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ЗаявкиНаОформлениеГТД.Command.ЗаявкиНаОформлениеГТД</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:89a63e80-2cfc-458a-8826-8cfd6ef141ef</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:ecfcd8ab-05d4-45a7-8bec-16bebbcf7173</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ГТД.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.ГТД.Subsystem.Справочники</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64bad26b-c334-4784-9207-6a604c9bade4">
+  <producedTypes>
+    <objectType typeId="e7cb090f-4fb3-473f-b623-635ad794eeaf" valueTypeId="eab57e40-c835-4373-ad7a-ce154e7c9f73"/>
+    <managerType typeId="66173fa6-9e50-4efe-bf74-f524ca7eef79" valueTypeId="b1639483-5f00-4523-8d8f-65b2781e65d6"/>
+  </producedTypes>
+  <name>ИзменитьПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить пароль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="3281092a-b41f-4fe0-89b9-8e43814db8e8">
+    <name>ТекущийПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий пароль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8291b318-2de1-4b84-a666-5941970b0fb1">
+    <name>ВводПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пароля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="fbadbdbf-f905-4d7d-90ac-a9e6c092da51">
+    <name>ИзменитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить пароль</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Замок</picture>
+    </picture>
+    <shortcut>Ctrl+Shift+F10</shortcut>
+  </commands>
+</mdclass:DataProcessor>

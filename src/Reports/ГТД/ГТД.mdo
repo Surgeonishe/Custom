@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e50ad894-86ca-40d4-af52-ff2fb2349327">
+  <producedTypes>
+    <objectType typeId="776f68cc-cf69-4b3a-8a6b-1d3d96c54efb" valueTypeId="f8984a90-0caf-4dd1-a7c2-f76d3ec49144"/>
+    <managerType typeId="6e0e637d-aa76-4ccf-8dbc-ed541d53727f" valueTypeId="463e996b-0981-4f21-8f8c-444ebc562a98"/>
+  </producedTypes>
+  <name>ГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые результаты (ГТД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ГТД.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="080b2090-bd55-4f90-9444-99185fc92abe">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="40cda88c-7dd4-45eb-b596-279b8ae2d1ca">
+    <name>ГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГТД</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

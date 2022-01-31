@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc8de239-7eea-41e9-a01f-dec0b78e4f0e">
+  <producedTypes>
+    <selectionType typeId="dd4ad43a-7c51-4821-a810-7fd7f08558c9" valueTypeId="5ee7ed2e-5d23-4c9a-b5ec-7cd3d46f905a"/>
+    <listType typeId="a9fcf1a5-7a2c-4350-abbf-b56b34f68b24" valueTypeId="4d29a983-cbbc-4d9d-a68b-2f23f2334bfe"/>
+    <managerType typeId="04eda573-f6bb-4139-8e65-a309250fe97f" valueTypeId="436ff82b-5937-41dc-afd0-cefd361cd35e"/>
+    <recordSetType typeId="3cf27e5c-18dd-441f-bbd3-81ae65d5e0d2" valueTypeId="dd1011af-f76f-4dc6-b2ad-88bcfc68195c"/>
+    <recordKeyType typeId="a1b14fbb-8f04-4e1e-9917-3a5e766667c5" valueTypeId="4560acfa-7db9-4227-a7d7-e12b1141835b"/>
+    <recordType typeId="5df7c0c9-e63e-4eac-86d9-ae2bb0bda7c6" valueTypeId="a9e8d553-3c18-4d77-bf9f-3321b1b3a6fa"/>
+    <recordManagerType typeId="182cf6a9-3364-4bcc-a5f5-50a922d842ab" valueTypeId="16513058-84ee-4699-8c28-1397f9145b2f"/>
+  </producedTypes>
+  <name>ТарифУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тариф (услуги)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТарифУслуги.Form.Запись</defaultRecordForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6013955c-5e7d-41e4-8922-8d5f0aec4c86">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e032cb8-4f67-494e-96ac-adee21badc2b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Груз</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Услуга</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8c612a37-038e-4180-8739-bbfe9aafa7d4">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Услуга</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79666af2-6879-4d32-a010-8b599906fef5">
+    <name>ВидТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид транспорта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидТранспорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fff06256-e510-41e2-8a37-4685481af365">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

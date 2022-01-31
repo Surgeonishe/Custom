@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c770d77-8a9d-4e6a-a650-85720ffa2865">
+  <producedTypes>
+    <objectType typeId="bd2981bf-b402-40b6-a1c4-4862bcd27a7c" valueTypeId="104cbcb3-b1b1-40b8-b0ec-2759807a6af5"/>
+    <managerType typeId="124c3baa-b463-49ab-b9d1-ac485e43e9f3" valueTypeId="89ac6f30-7b81-4477-a4d8-034516abb4e3"/>
+  </producedTypes>
+  <name>ДоходыРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы, расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДоходыРасходы.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="8a761ff4-2858-4c40-9cfa-967a41a4e1ea">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="16bbb1ce-b9e9-4977-b2a4-19e06ca9be58">
+    <name>ДоходыРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы, расходы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

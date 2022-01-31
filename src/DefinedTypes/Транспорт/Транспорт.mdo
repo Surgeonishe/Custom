@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba7bd08c-caca-4419-a865-8c199dc971f5">
+  <producedTypes>
+    <containerType typeId="66d5be89-ae43-4523-9ea4-6d16178fb594" valueTypeId="43c201c9-d7e8-4954-b38f-7e5c8b7c15c4"/>
+  </producedTypes>
+  <name>Транспорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>24</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18bf6916-83cc-41e5-a35b-1489450ae632">
+  <producedTypes>
+    <listType typeId="9e16ad15-d167-4333-93b1-dd05dfe4196d" valueTypeId="13494fee-f044-4f98-94ee-527ae8a7d2bb"/>
+    <managerType typeId="f3419e42-7083-4e23-8233-2155ef776262" valueTypeId="f672e9f7-cdcc-4293-b1f2-e4c26f912c00"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.СчетНаОплату</types>
+    <types>DocumentRef.ЗаявкаНаРасходДС</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentRef.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentRef.ЗапросКлиента</types>
+    <types>DocumentRef.Контроль</types>
+    <types>DocumentRef.БрокерскиеУслуги</types>
+    <types>DocumentRef.ВводНачальныхОстатков</types>
+    <types>DocumentRef.ГТД</types>
+    <types>DocumentRef.ЭкспедиторскиеУслуги</types>
+    <types>DocumentRef.КорректировкаГТД</types>
+  </type>
+  <content>Document.БрокерскиеУслуги.Attribute.Контроль</content>
+  <content>Document.ГТД.Attribute.Контроль</content>
+  <content>Document.ГТД.TabularSection.Транспорт.Attribute.Контроль</content>
+  <content>Document.Контроль.Attribute.ЗапросКлиента</content>
+  <content>Document.КорректировкаГТД.Attribute.ГТД</content>
+  <content>Document.ПлатежноеПоручениеВходящее.Attribute.ГТД</content>
+  <content>Document.ПлатежноеПоручениеВходящее.Attribute.СчетНаОплату</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.Attribute.ГТД</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.Attribute.СчетНаОплату</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.ГТД</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.СчетНаОплату</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.ГТД</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.ДокументПКО</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.Основание</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.СчетНаОплату</content>
+  <content>Document.СчетНаОплату.Attribute.ГТД</content>
+  <content>Document.ЭкспедиторскиеУслуги.Attribute.Контроль</content>
+  <defaultForm>FilterCriterion.СвязанныеДокументы.Form.Список</defaultForm>
+  <forms uuid="8313c0aa-7ca6-4bfe-a8aa-3f46d2d82301">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

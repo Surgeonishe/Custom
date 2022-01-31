@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:5e7d9ab6-0b62-4db4-b8c6-8bc8e23db970</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ДоходыРасходы.Command.ДоходыРасходы</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.МетодРаспределения.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.СчетНаОплату.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Финансы.Subsystem.Банк</subsystems>
+    <subsystems>Subsystem.Финансы.Subsystem.Касса</subsystems>
+    <subsystems>Subsystem.Финансы.Subsystem.Справочники</subsystems>
+    <subsystems>9361e870-bb4b-49b0-aefb-bbefe6097bb7</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

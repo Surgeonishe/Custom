@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec9abec-582a-41b2-bec8-b1c35aacbf4f">
+  <producedTypes>
+    <selectionType typeId="7f47591e-f0a5-437d-b078-376dc6a118cd" valueTypeId="098ca23e-81cb-4f25-8e85-01481a5e1af4"/>
+    <listType typeId="eaa6dad8-f909-4e09-a805-20d5226dca9a" valueTypeId="9ac8c1db-da47-45f4-ab51-338cbfcaec62"/>
+    <managerType typeId="15b959f7-e4e0-4b1e-8df1-99ad0114b8c8" valueTypeId="f2342a69-10ff-4837-922a-5313e6b0c95c"/>
+    <recordSetType typeId="de26f71c-313b-4090-9088-545212b0fdbc" valueTypeId="478e6139-38e0-4625-b207-31f2e3afd263"/>
+    <recordKeyType typeId="cbdc757a-0e0e-4299-ac31-ac931075f2a6" valueTypeId="f0be561d-5966-4cd6-95c0-8594e3b71166"/>
+    <recordType typeId="a1c01051-d482-4dcc-841e-260704072fca" valueTypeId="167b66cd-804a-421d-ba95-266902b11c9d"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8757a43e-745c-4b62-ae30-4a486bf1f114">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7661d2e5-c4b8-4d40-b8e9-55512f5d4299">
+    <name>Казна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Казна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6aed6ba8-ebed-4fa1-b5b5-f2a50c5f0e37">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

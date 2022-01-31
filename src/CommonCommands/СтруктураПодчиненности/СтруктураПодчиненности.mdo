@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7548f7bd-5ccd-4d31-b0da-9e61ba4e7672">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура подчиненности</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.СчетНаОплату</types>
+    <types>DocumentRef.ЗаявкаНаРасходДС</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentRef.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentRef.ЗапросКлиента</types>
+    <types>DocumentRef.Контроль</types>
+    <types>DocumentRef.БрокерскиеУслуги</types>
+    <types>DocumentRef.ГТД</types>
+    <types>DocumentRef.ЭкспедиторскиеУслуги</types>
+    <types>DocumentRef.КорректировкаГТД</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.ListViewModeHierarchicalList</picture>
+  </picture>
+</mdclass:CommonCommand>

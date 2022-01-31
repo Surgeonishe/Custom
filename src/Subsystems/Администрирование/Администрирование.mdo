@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="088c2a3c-cce6-49b5-940e-369f620c5f88">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Администрирование</picture>
+  </picture>
+  <content>Constant.ВалютаУчета</content>
+  <content>Constant.ОсновнаяОрганизация</content>
+  <content>AccumulationRegister.ДоходыРасходы</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>Document.ВводНачальныхОстатков</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>AccumulationRegister.Подотчет</content>
+  <content>Enum.ВидОперацииРасходныйКассовыйОрдер</content>
+  <content>AccumulationRegister.ДвиженияДенежныхСредств</content>
+  <content>Catalog.ВидыДеятельности</content>
+  <content>Report.ВедомостьДенежныхСредств</content>
+  <content>Report.ВедомостьПоЗаявкам</content>
+  <content>Report.ДвиженияДДС</content>
+  <content>Report.ОстаткиДенежныхСредств</content>
+  <content>DataProcessor.ИзменитьПароль</content>
+  <content>InformationRegister.МетодРаспределения</content>
+  <content>Enum.МетодРаспределения</content>
+  <content>DataProcessor.ЗагрузитьКурсыВалют</content>
+  <content>DataProcessor.КонсольЗаданий</content>
+  <content>Constant.ОсновнаяКасса</content>
+  <content>Constant.КаталогХраненияФайлов</content>
+  <content>Document.Заявка</content>
+  <content>InformationRegister.Оформление</content>
+  <content>InformationRegister.ПорядокДокументовКонтроль</content>
+  <content>Enum.СтатусыЗаявок</content>
+  <content>7860b80c-1d9b-46ff-9ac7-c04ffe5dc180</content>
+  <content>edbefbb8-4b94-42a0-a827-78afbe4b9276</content>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

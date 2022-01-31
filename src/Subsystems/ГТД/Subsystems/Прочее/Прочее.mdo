@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a3dc321-568f-44ef-af23-931ddfa95a42">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.КорректировкаГТД</content>
+  <content>InformationRegister.МетодРаспределения</content>
+  <content>d2d16c0e-aea0-46fc-a29b-8ddca70f87c2</content>
+  <parentSubsystem>Subsystem.ГТД</parentSubsystem>
+</mdclass:Subsystem>

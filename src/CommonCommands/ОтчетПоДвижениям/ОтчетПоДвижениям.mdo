@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0537e352-e1d6-4c0c-bfe2-27526ff23163">
+  <name>ОтчетПоДвижениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по движениям</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.ЗаявкаНаРасходДС</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentRef.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentRef.БрокерскиеУслуги</types>
+    <types>DocumentRef.Заявка</types>
+    <types>DocumentRef.ВводНачальныхОстатков</types>
+    <types>DocumentRef.ГТД</types>
+    <types>DocumentRef.ЭкспедиторскиеУслуги</types>
+    <types>DocumentRef.КорректировкаГТД</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.DebitCredit</picture>
+  </picture>
+</mdclass:CommonCommand>

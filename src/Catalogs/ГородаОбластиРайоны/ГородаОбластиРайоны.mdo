@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a024c64-3236-478b-a575-788c5d8d0502">
+  <producedTypes>
+    <objectType typeId="4b52d633-4068-4288-b09a-02fd697db56d" valueTypeId="a363894d-b364-4a33-84a8-bd176d443754"/>
+    <refType typeId="3b5f2814-993e-4599-905b-e791f7efe42b" valueTypeId="d8c9feb3-3706-49b1-b761-f46f7729391e"/>
+    <selectionType typeId="99886af3-eb63-41b3-981d-299230b964e3" valueTypeId="730a7117-f2d1-4a19-bd66-f225a9c37800"/>
+    <listType typeId="ead3b374-e910-4943-af98-6487743d4b8d" valueTypeId="3ab94aa0-f9a5-4666-a1f8-3f591c09071b"/>
+    <managerType typeId="58a06064-2e7e-4af6-a2b5-cc363026816c" valueTypeId="b0f2a272-c394-4283-b8c8-19102c517f3d"/>
+  </producedTypes>
+  <name>ГородаОбластиРайоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города (области, районы)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГородаОбластиРайоны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГородаОбластиРайоны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="294ef8ad-2a56-44f1-9d70-4b1fea61d3a2">
+    <name>НаименованиеUKR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (ukr)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e09ed469-e2bd-43e6-92ed-8f4190658f17">
+    <name>НаименованиеENG</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (eng)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

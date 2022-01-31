@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="782456e9-f4e3-4eb5-98b6-a7f9f699cbf7">
+  <producedTypes>
+    <refType typeId="d700a537-23eb-44b5-a3cb-c225eb0c718c" valueTypeId="bea8677c-1bb1-42c5-ba39-063db25779a6"/>
+    <listType typeId="bbc1e105-399b-48de-9ff7-a24ef29480d2" valueTypeId="79374afa-edfa-4c5c-8d23-94c8251c1a5f"/>
+    <managerType typeId="213af9c0-75ba-4b99-a57c-b5b65722142f" valueTypeId="e171b1d1-40a0-47c2-9f6b-ecdcaa818ac3"/>
+  </producedTypes>
+  <name>ВидОперацииРасходныйКассовыйОрдер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции расходный кассовый ордер</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2c803d41-4fea-4dc0-909e-32c2e47e49a6">
+    <name>ВыдачаВПодотчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача в подотчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7eaca0c-b545-4fb4-ae2c-02b85b33ef34">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b4d009b-bbdc-4c63-914e-f217e70e4af2">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="120aaa25-75c9-42a0-b4d2-c5db1a510a71">
+    <name>ПеремещениеВКассу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение (в кассу)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bce7da64-a7dd-4dfc-a476-c07fbad5872e">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

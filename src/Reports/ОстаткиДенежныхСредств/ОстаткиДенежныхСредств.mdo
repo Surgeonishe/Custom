@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c084db4c-4995-4735-8082-98fee6b3cf56">
+  <producedTypes>
+    <objectType typeId="fb55a879-58f0-48f2-8d46-ae23cc55710f" valueTypeId="248c4ad3-70d2-4cdb-9bdd-7345476f934c"/>
+    <managerType typeId="edaf042e-e505-4586-899a-9b3740b3fb24" valueTypeId="83439712-94fb-4a82-bcbb-e3e56f631f65"/>
+  </producedTypes>
+  <name>ОстаткиДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиДенежныхСредств.Template.Схема</mainDataCompositionSchema>
+  <templates uuid="d65c0283-db30-476c-aaed-149a88346187">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="4d2d19f7-cc7b-4151-96be-875ee3452602">
+    <name>ОстаткиДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки денежных средств</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

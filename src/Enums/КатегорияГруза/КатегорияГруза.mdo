@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08067ac3-ce1c-4292-8241-44dd00af6818">
+  <producedTypes>
+    <refType typeId="c076bb7f-8701-4bea-9599-d92526328760" valueTypeId="f45793bd-ec5c-40ab-8acd-219ae70cb1af"/>
+    <listType typeId="c5b44654-4fc0-466d-a00b-6a71f68ff240" valueTypeId="198370c6-cec5-4ad5-9074-0c7fc82af8b9"/>
+    <managerType typeId="2b8b30ae-d693-49ff-928d-64173803f220" valueTypeId="df9b677b-7838-4496-8853-db33f4a78fe2"/>
+  </producedTypes>
+  <name>КатегорияГруза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория груза</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="18762bdb-4dfb-4384-8102-3a89e91949b6">
+    <name>Зерно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зерно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b6a9179-9cc3-4d57-b116-75f2c3b43d8d">
+    <name>Лес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лес</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

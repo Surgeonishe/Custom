@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e754222-f1da-4439-90a3-60abc94530d0">
+  <producedTypes>
+    <objectType typeId="bd38b4c9-e60a-407a-afa1-cb3b6f27a41b" valueTypeId="d06bd4cf-b163-49e5-b5b4-2cbe094484aa"/>
+    <managerType typeId="7cd1e60a-b74b-48b8-92f7-66d8420e690e" valueTypeId="2dd19f93-3488-4f4a-9e3e-d3fbb6d5f13a"/>
+  </producedTypes>
+  <name>ДвиженияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДвиженияДокумента.Form.ДвиженияДокумента</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="84291bd8-5173-4824-8326-0f52181d1239">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="96174b4a-a508-4bf9-a90a-eb7f04a27d96">
+    <name>СпособВыводаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить детализацию</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособВыводаОтчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dfca434f-9058-4388-ae10-4f4fd0e222ab">
+    <name>ДвиженияДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="586da803-27e3-4529-a95c-1b3133dff343">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="5fdb35f6-7473-41e9-814c-61e38cac743f">
+    <name>МакетЖурналПроводок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет журнал проводок</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
